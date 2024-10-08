@@ -44,20 +44,3 @@ class OnlineIng extends StatelessWidget {
     );
   }
 }
-
-class Button extends StatelessWidget {
-  const Button({
-    super.key,
-    required this.currentWidth,
-  });
-
-  final double currentWidth;
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      height: currentWidth * 0.07,
-      width: currentWidth * 0.20,
-    );
-  }
-}
