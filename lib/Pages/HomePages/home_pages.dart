@@ -7,6 +7,7 @@ import 'package:wizwords_web/Pages/components/colors.dart';
 import 'Parts/LetsAndImg.dart';
 import '../components/footBar.dart';
 import '../components/topBar.dart';
+import 'Parts/Wizwords_about.dart';
 
 class HomePages extends StatelessWidget {
   const HomePages({super.key});
@@ -31,11 +32,10 @@ class HomePages extends StatelessWidget {
                     children: [
                       //TOP BAR
                       TopBar(currentWidth: currentWidth),
-
                       LetsAndimg(currentWidth: currentWidth),
                       ImageOne(currentWidth: currentWidth),
-
                       OnlineIng(currentWidth: currentWidth),
+                      WizwordsAbout(currentWidth: currentWidth),
 
                       // FOOTBAR
 

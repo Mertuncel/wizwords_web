@@ -4,6 +4,7 @@ const String textLogo = 'assets/images/Wizwords_logo_yazi.png';
 const String anasayfaImg1 = 'assets/images/ww_tablet.png';
 const String anasayfaImg2 = 'assets/images/AnasayfaImg2.png';
 const String anasayfaImg3 = 'assets/images/AnasayfaImg3.png';
+const String anasayfaImg4 = 'assets/images/anasayfaImg4.png';
 
 //ICONS IMAGES
 

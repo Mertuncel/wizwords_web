@@ -19,12 +19,15 @@ class OnlineIng extends StatelessWidget {
         children: [
           TextType2(text: homeText5, color: brown, size: currentWidth * 0.050),
           TextType2(text: homeText6, color: brown, size: currentWidth * 0.018),
+          SizedBox(
+            height: currentWidth * 0.010,
+          ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               YellowButton(
                   press: () {}, currentWidth: currentWidth, text: buttonText1),
-              SizedBox(width: currentWidth * 0.02),
+              SizedBox(width: currentWidth * 0.03),
               YellowButton(
                   press: () {}, currentWidth: currentWidth, text: buttonText2),
             ],
@@ -34,7 +37,7 @@ class OnlineIng extends StatelessWidget {
             children: [
               YellowButton(
                   press: () {}, currentWidth: currentWidth, text: buttonText3),
-              SizedBox(width: currentWidth * 0.02),
+              SizedBox(width: currentWidth * 0.03),
               YellowButton(
                   press: () {}, currentWidth: currentWidth, text: buttonText4),
             ],
