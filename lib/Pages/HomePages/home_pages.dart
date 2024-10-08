@@ -22,12 +22,10 @@ class HomePages extends StatelessWidget {
 
               child: Container(
                 decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    begin: Alignment.centerLeft,
-                    end: Alignment.centerRight,
-                    colors: gradient,
-                  ),
-                ),
+                    gradient: LinearGradient(
+                        begin: Alignment.centerLeft,
+                        end: Alignment.centerRight,
+                        colors: gradient)),
                 child: SingleChildScrollView(
                   child: Column(
                     children: [
@@ -37,9 +35,7 @@ class HomePages extends StatelessWidget {
                       LetsAndimg(currentWidth: currentWidth),
                       ImageOne(currentWidth: currentWidth),
 
-                      OnlineIng(
-                        currentWidth: currentWidth,
-                      ),
+                      OnlineIng(currentWidth: currentWidth),
 
                       // FOOTBAR
 
