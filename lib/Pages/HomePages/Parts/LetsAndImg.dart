@@ -27,17 +27,15 @@ class LetsAndimg extends StatelessWidget {
                   padding: EdgeInsets.only(
                     left: currentWidth * 0.030,
                   ),
-                  child: Texttype().text(
-                      Texts().homeText1, colors().brown, currentWidth * 0.050)),
+                  child:
+                      Texttype().text(homeText1, brown, currentWidth * 0.050)),
               Padding(
                 padding: EdgeInsets.only(right: currentWidth * 0.045, top: 20),
-                child: Texttype().text(
-                    Texts().homeText2, colors().green, currentWidth * 0.008),
+                child: Texttype().text(homeText2, green, currentWidth * 0.008),
               ),
               Padding(
                 padding: EdgeInsets.only(left: currentWidth * 0.06, top: 5),
-                child: Texttype().text(
-                    Texts().homeText3, colors().brown, currentWidth * 0.005),
+                child: Texttype().text(homeText3, brown, currentWidth * 0.005),
               ),
               Padding(
                 padding: EdgeInsets.only(right: currentWidth * 0.070, top: 20),
@@ -65,8 +63,8 @@ class LetsAndimg extends StatelessWidget {
                         padding: EdgeInsets.only(
                             top: currentWidth * 0.010,
                             left: currentWidth * 0.01),
-                        child: Texttype().text(Texts().homeText4,
-                            colors().brown, currentWidth * 0.010),
+                        child: Texttype()
+                            .text(homeText4, brown, currentWidth * 0.010),
                       )
                     ],
                   ),

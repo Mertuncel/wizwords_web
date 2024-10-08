@@ -15,16 +15,14 @@ class OnlineIng extends StatelessWidget {
       padding: EdgeInsets.only(top: currentWidth * 0.060),
       child: Column(
         children: [
-          Texttype()
-              .text2(Texts().homeText5, colors().brown, currentWidth * 0.050),
-          Texttype()
-              .text2(Texts().homeText6, colors().brown, currentWidth * 0.018),
+          Texttype().text2(homeText5, brown, currentWidth * 0.050),
+          Texttype().text2(homeText6, brown, currentWidth * 0.018),
           Button(
             height: currentWidth * 0.07,
             width: currentWidth * 0.20,
-            buttonColor: colors().yellow,
-            text: Texts().buttonText1,
-            textColor: colors().white,
+            buttonColor: yellow,
+            text: buttonText1,
+            textColor: white,
             size: currentWidth * 0.015,
           ),
         ],

@@ -49,13 +49,13 @@ class FoodBar extends StatelessWidget {
             children: [
               Column(
                 children: [
-                  text(Texts().iletisim, currentWidth * 0.014),
+                  text(iletisim, currentWidth * 0.014),
                   Padding(
                     padding:
                         EdgeInsets.symmetric(vertical: currentWidth * 0.002),
-                    child: text(Texts().mail, currentWidth * 0.009),
+                    child: text(mail, currentWidth * 0.009),
                   ),
-                  text(Texts().phone, currentWidth * 0.009),
+                  text(phone, currentWidth * 0.009),
 
                   //SOSYAL MEDYA İCONLARI
 

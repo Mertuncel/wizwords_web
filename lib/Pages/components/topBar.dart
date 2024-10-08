@@ -38,40 +38,40 @@ class TopBar extends StatelessWidget {
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
                   child: InkWell(
                       onTap: () {},
-                      child: Texttype().text(
-                          'AnaSayfa', colors().brown, currentWidth * 0.010)),
+                      child: Texttype()
+                          .text('AnaSayfa', brown, currentWidth * 0.010)),
                 ),
                 Padding(
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
                   child: InkWell(
                       onTap: () {},
-                      child: Texttype().text(
-                          'Hakkımızda', colors().brown, currentWidth * 0.010)),
+                      child: Texttype()
+                          .text('Hakkımızda', brown, currentWidth * 0.010)),
                 ),
                 Padding(
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
                   child: InkWell(
                       onTap: () {},
-                      child: Texttype().text(
-                          'Kurslar', colors().brown, currentWidth * 0.010)),
+                      child: Texttype()
+                          .text('Kurslar', brown, currentWidth * 0.010)),
                 ),
                 Padding(
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
                   child: InkWell(
                       onTap: () {},
-                      child: Texttype().text(
-                          'Ürünler', colors().brown, currentWidth * 0.010)),
+                      child: Texttype()
+                          .text('Ürünler', brown, currentWidth * 0.010)),
                 ),
                 Padding(
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
                   child: InkWell(
                       onTap: () {},
-                      child: Texttype().text(
-                          'Eğitmen Ol', colors().brown, currentWidth * 0.010)),
+                      child: Texttype()
+                          .text('Eğitmen Ol', brown, currentWidth * 0.010)),
                 ),
                 currentWidth > 1100
                     ? button(() {}, 'İletişime\n     Geç', currentWidth * 0.080,
-                        70, colors().brown)
+                        70, brown)
                     : const SizedBox(),
               ],
             ),
