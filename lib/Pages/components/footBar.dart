@@ -65,16 +65,13 @@ class FoodBar extends StatelessWidget {
                       children: [
                         InkWell(
                             onTap: () {},
-                            child: icons(
-                                images().instaIcon, currentWidth * 0.010)),
+                            child: icons(instaIcon, currentWidth * 0.010)),
                         InkWell(
                             onTap: () {},
-                            child: icons(
-                                images().tiktokIcon, currentWidth * 0.010)),
+                            child: icons(tiktokIcon, currentWidth * 0.010)),
                         InkWell(
                             onTap: () {},
-                            child:
-                                icons(images().mailIcon, currentWidth * 0.010)),
+                            child: icons(mailIcon, currentWidth * 0.010)),
                       ],
                     ),
                   ),

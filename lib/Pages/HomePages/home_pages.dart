@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:wizwords_web/Pages/HomePages/Parts/ImageOne.dart';
 import 'package:wizwords_web/Pages/HomePages/Parts/OnlineIng.dart';
 import 'package:wizwords_web/Pages/PhoneHomePage/phone_home_page.dart';
+import 'package:wizwords_web/Pages/components/colors.dart';
 
 import 'Parts/LetsAndImg.dart';
 import '../components/footBar.dart';
@@ -20,11 +21,11 @@ class HomePages extends StatelessWidget {
               //ANA ARKA PLAN
 
               child: Container(
-                decoration: const BoxDecoration(
+                decoration: BoxDecoration(
                   gradient: LinearGradient(
                     begin: Alignment.centerLeft,
                     end: Alignment.centerRight,
-                    colors: [Color(0xFFf4f3ef), Color(0xFFe4eae0)],
+                    colors: gradient,
                   ),
                 ),
                 child: SingleChildScrollView(

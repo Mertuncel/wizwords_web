@@ -14,7 +14,7 @@ class ImageOne extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.only(top: currentWidth * 0.1),
       child: Image.asset(
-        images().anasayfaImg2,
+        anasayfaImg2,
         height: currentWidth * 0.4,
       ),
     );

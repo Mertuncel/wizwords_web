@@ -3,6 +3,8 @@ import 'package:wizwords_web/Pages/components/colors.dart';
 import 'package:wizwords_web/Pages/components/textType.dart';
 import 'package:wizwords_web/Pages/components/texts.dart';
 
+import '../../components/buttons.dart';
+
 class OnlineIng extends StatelessWidget {
   const OnlineIng({
     super.key,
@@ -15,15 +17,27 @@ class OnlineIng extends StatelessWidget {
       padding: EdgeInsets.only(top: currentWidth * 0.060),
       child: Column(
         children: [
-          Texttype().text2(homeText5, brown, currentWidth * 0.050),
-          Texttype().text2(homeText6, brown, currentWidth * 0.018),
-          Button(
-            height: currentWidth * 0.07,
-            width: currentWidth * 0.20,
-            buttonColor: yellow,
-            text: buttonText1,
-            textColor: white,
-            size: currentWidth * 0.015,
+          TextType2(text: homeText5, color: brown, size: currentWidth * 0.050),
+          TextType2(text: homeText6, color: brown, size: currentWidth * 0.018),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              YellowButton(
+                  press: () {}, currentWidth: currentWidth, text: buttonText1),
+              SizedBox(width: currentWidth * 0.02),
+              YellowButton(
+                  press: () {}, currentWidth: currentWidth, text: buttonText2),
+            ],
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              YellowButton(
+                  press: () {}, currentWidth: currentWidth, text: buttonText3),
+              SizedBox(width: currentWidth * 0.02),
+              YellowButton(
+                  press: () {}, currentWidth: currentWidth, text: buttonText4),
+            ],
           ),
         ],
       ),
@@ -34,29 +48,16 @@ class OnlineIng extends StatelessWidget {
 class Button extends StatelessWidget {
   const Button({
     super.key,
-    required this.height,
-    required this.width,
-    required this.text,
-    required this.textColor,
-    required this.size,
-    required this.buttonColor,
+    required this.currentWidth,
   });
 
-  final double height;
-  final double width;
-  final String text;
-  final Color textColor;
-  final Color buttonColor;
-  final double size;
+  final double currentWidth;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: height,
-      width: width,
-      decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(10), color: buttonColor),
-      child: Texttype().text2(text, textColor, size),
+      height: currentWidth * 0.07,
+      width: currentWidth * 0.20,
     );
   }
 }

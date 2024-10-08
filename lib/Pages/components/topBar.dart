@@ -22,7 +22,7 @@ class TopBar extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Image.asset(
-            images().textLogo,
+            textLogo,
             height: currentWidth * 0.055,
           ),
           Padding(
@@ -38,36 +38,46 @@ class TopBar extends StatelessWidget {
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
                   child: InkWell(
                       onTap: () {},
-                      child: Texttype()
-                          .text('AnaSayfa', brown, currentWidth * 0.010)),
+                      child: TextType1(
+                          text: 'AnaSayfa',
+                          color: brown,
+                          size: currentWidth * 0.010)),
                 ),
                 Padding(
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
                   child: InkWell(
                       onTap: () {},
-                      child: Texttype()
-                          .text('Hakkımızda', brown, currentWidth * 0.010)),
+                      child: TextType1(
+                          text: 'Hakkımızda',
+                          color: brown,
+                          size: currentWidth * 0.010)),
                 ),
                 Padding(
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
                   child: InkWell(
                       onTap: () {},
-                      child: Texttype()
-                          .text('Kurslar', brown, currentWidth * 0.010)),
+                      child: TextType1(
+                          text: 'Kurslar',
+                          color: brown,
+                          size: currentWidth * 0.010)),
                 ),
                 Padding(
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
                   child: InkWell(
                       onTap: () {},
-                      child: Texttype()
-                          .text('Ürünler', brown, currentWidth * 0.010)),
+                      child: TextType1(
+                          text: 'Ürünler',
+                          color: brown,
+                          size: currentWidth * 0.010)),
                 ),
                 Padding(
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
                   child: InkWell(
                       onTap: () {},
-                      child: Texttype()
-                          .text('Eğitmen Ol', brown, currentWidth * 0.010)),
+                      child: TextType1(
+                          text: 'Eğitmen Ol',
+                          color: brown,
+                          size: currentWidth * 0.010)),
                 ),
                 currentWidth > 1100
                     ? button(() {}, 'İletişime\n     Geç', currentWidth * 0.080,

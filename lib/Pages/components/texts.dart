@@ -17,5 +17,5 @@ const String phone = '05010871956';
 
 const String buttonText1 = 'BİREBİR ONLİNE DERSLER';
 const String buttonText2 = 'ONLİNE KONUŞMA KULÜBÜ';
-const String buttonText3 = 'ONLİNE GRUP DERSLERİ';
+const String buttonText3 = 'ONLİNE GRUP   DERSLERİ';
 const String buttonText4 = 'ÇOCUKLAR İÇİN İNGİLİZCE (ONLİNE)';
