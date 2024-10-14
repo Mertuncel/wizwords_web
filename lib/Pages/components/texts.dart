@@ -3,7 +3,7 @@
 const String homeText1 = "Let's Talk\nIt Out";
 const String homeText2 = 'Dilimin Sınırları Dünyamın Sınırlarıdır.';
 const String homeText3 = 'Ludwig Wittgenstein';
-const String homeText4 = 'Kurslarımızı Keşfet ->';
+const String homeText4 = 'Kurslarımızı Keşfet';
 const String homeText5 = 'Online İngilizce';
 const String homeText6 = 'İngilizceyi Kendi Köşende Öğren!';
 const String homeText7 = 'WizWords Hakkında';

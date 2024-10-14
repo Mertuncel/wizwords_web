@@ -19,7 +19,7 @@ class TextType1 extends StatelessWidget {
     return Text(
       textAlign: align,
       text,
-      style: GoogleFonts.merriweather(
+      style: GoogleFonts.notoSerifBengali(
           color: color, fontSize: size, fontWeight: FontWeight.bold),
     );
   }
