@@ -4,6 +4,7 @@ import 'package:wizwords_web/Pages/HomePages/Parts/OnlineIng.dart';
 import 'package:wizwords_web/Pages/PhoneHomePage/phone_home_page.dart';
 import 'package:wizwords_web/Pages/components/colors.dart';
 
+import 'Parts/FAQ..dart';
 import 'Parts/LetsAndImg.dart';
 import '../components/footBar.dart';
 import '../components/topBar.dart';
@@ -31,11 +32,16 @@ class HomePages extends StatelessWidget {
                   child: Column(
                     children: [
                       //TOP BAR
+
                       TopBar(currentWidth: currentWidth),
+
+                      //COMPONENTS
+
                       LetsAndimg(currentWidth: currentWidth),
                       ImageOne(currentWidth: currentWidth),
                       OnlineIng(currentWidth: currentWidth),
                       WizwordsAbout(currentWidth: currentWidth),
+                      FAQ(currentWidth: currentWidth),
 
                       // FOOTBAR
 

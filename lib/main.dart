@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Wizwords English School',
       theme: ThemeData(
+        hoverColor: Colors.transparent,
         useMaterial3: true,
       ),
       routerConfig: router,

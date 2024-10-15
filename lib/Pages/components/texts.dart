@@ -10,6 +10,12 @@ const String homeText7 = 'WizWords Hakkında';
 const String homeText8 =
     'Deneyimli eğitmenler olarak kendi\ntecrübelerimizden yola çıktık ve\nsizler için bir yol haritası\ntasarladık.';
 const String homeText9 = 'Ticarete değil, gelişime odaklandık.';
+const String homeText10 = 'Sıkça Sorulan Sorular';
+
+// FAQ TEXT
+
+const String faqText1 = 'Dersleriniz nasıl veriliyor?';
+const String faqText2 = 'Derslerimizin süresi 40 dakikadır.';
 
 //İLETİŞİM TEXT
 
