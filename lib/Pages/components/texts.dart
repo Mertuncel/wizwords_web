@@ -16,6 +16,9 @@ const String homeText10 = 'Sıkça Sorulan Sorular';
 
 const String faqText1 = 'Dersleriniz nasıl veriliyor?';
 const String faqText2 = 'Derslerimizin süresi 40 dakikadır.';
+const String faqText3 = 'Her ders ne kadar sürüyor?';
+const String faqText4 = 'Nasıl ödeme yapabilirim?';
+const String faqText5 = 'Ürünleriniz dijital mi?';
 
 //İLETİŞİM TEXT
 
@@ -30,3 +33,4 @@ const String buttonText2 = 'ONLİNE KONUŞMA KULÜBÜ';
 const String buttonText3 = 'ONLİNE GRUP   DERSLERİ';
 const String buttonText4 = 'ÇOCUKLAR İÇİN İNGİLİZCE (ONLİNE)';
 const String buttonText5 = 'Daha Fazla Öğren';
+const String buttonText6 = 'Hemen Dene';

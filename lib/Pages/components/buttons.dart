@@ -3,7 +3,7 @@ import 'package:wizwords_web/Pages/components/colors.dart';
 
 import 'textType.dart';
 
-class YellowButton extends StatelessWidget {
+class YellowButton extends StatefulWidget {
   const YellowButton({
     super.key,
     required this.text,
@@ -17,28 +17,51 @@ class YellowButton extends StatelessWidget {
   final Function() press;
 
   @override
+  State<YellowButton> createState() => _YellowButtonState();
+}
+
+class _YellowButtonState extends State<YellowButton> {
+  bool isHover = false;
+  @override
   Widget build(BuildContext context) {
+    // Container animasyon kısmı
+    final hoveredTransform = Matrix4.identity()..translate(0, -8, .0);
+    final transform = isHover ? hoveredTransform : Matrix4.identity();
     return Padding(
       padding: EdgeInsets.only(
-        top: currentWidth * 0.020,
+        top: widget.currentWidth * 0.020,
       ),
       child: InkWell(
-        onTap: press,
-        child: Container(
-            height: currentWidth * 0.08,
-            width: currentWidth * 0.20,
-            decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20), color: yellow),
-            child: Padding(
-              padding: EdgeInsets.only(top: currentWidth * 0.016),
-              child: TextType2(
-                shadowColor: Colors.black.withOpacity(0.7),
-                text: text,
-                color: white,
-                size: currentWidth * 0.015,
-                align: TextAlign.center,
-              ),
-            )),
+        onTap: widget.press,
+        child: MouseRegion(
+          onEnter: (event) {
+            setState(() {
+              isHover = true;
+            });
+          },
+          onExit: (event) {
+            setState(() {
+              isHover = false;
+            });
+          },
+          child: AnimatedContainer(
+              duration: const Duration(milliseconds: 200),
+              transform: transform,
+              height: widget.currentWidth * 0.08,
+              width: widget.currentWidth * 0.20,
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20), color: yellow),
+              child: Padding(
+                padding: EdgeInsets.only(top: widget.currentWidth * 0.016),
+                child: TextType2(
+                  shadowColor: Colors.black.withOpacity(0.7),
+                  text: widget.text,
+                  color: white,
+                  size: widget.currentWidth * 0.015,
+                  align: TextAlign.center,
+                ),
+              )),
+        ),
       ),
     );
   }
@@ -62,6 +85,7 @@ class GradientButton extends StatelessWidget {
   final double width;
   final double size;
   final Function() press;
+
   @override
   Widget build(BuildContext context) {
     return InkWell(

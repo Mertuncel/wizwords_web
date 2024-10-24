@@ -25,6 +25,7 @@ class FaqButton extends StatelessWidget {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(40),
         child: ExpansionTile(
+          minTileHeight: currentWidth * 0.030,
           childrenPadding: EdgeInsets.only(right: currentWidth * 0.1),
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),

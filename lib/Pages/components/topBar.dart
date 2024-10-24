@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:go_router/go_router.dart';
+
+import 'package:wizwords_web/Pages/components/buttons.dart';
 import 'package:wizwords_web/Pages/components/colors.dart';
 import 'package:wizwords_web/Pages/components/images.dart';
 import 'package:wizwords_web/Pages/components/textType.dart';
@@ -21,9 +23,12 @@ class TopBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Image.asset(
-            textLogo,
-            height: currentWidth * 0.055,
+          InkWell(
+            onTap: () => context.go('/'),
+            child: Image.asset(
+              textLogo,
+              height: currentWidth * 0.055,
+            ),
           ),
           Padding(
             padding: const EdgeInsets.only(
@@ -37,7 +42,7 @@ class TopBar extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
                   child: InkWell(
-                      onTap: () {},
+                      onTap: () => context.go('/'),
                       child: TextType1(
                           text: 'AnaSayfa',
                           color: brown,
@@ -46,7 +51,7 @@ class TopBar extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
                   child: InkWell(
-                      onTap: () {},
+                      onTap: () => context.go('/About'),
                       child: TextType1(
                           text: 'Hakkımızda',
                           color: brown,
@@ -79,10 +84,17 @@ class TopBar extends StatelessWidget {
                           color: brown,
                           size: currentWidth * 0.010)),
                 ),
-                currentWidth > 1100
-                    ? button(() {}, 'İletişime\n     Geç', currentWidth * 0.080,
-                        70, brown)
-                    : const SizedBox(),
+                Padding(
+                  padding: EdgeInsets.only(right: currentWidth * 0.015),
+                  child: GradientButton(
+                      currentWidth: currentWidth,
+                      text: 'İletişime\n    Geç',
+                      color: brown,
+                      height: currentWidth * 0.040,
+                      width: currentWidth * 0.09,
+                      size: currentWidth * 0.010,
+                      press: () {}),
+                ),
               ],
             ),
           ),
@@ -90,28 +102,4 @@ class TopBar extends StatelessWidget {
       ),
     );
   }
-}
-
-Widget button(
-    Function() press, String text, double width, double height, Color color) {
-  return Padding(
-    padding: const EdgeInsets.only(right: 50),
-    child: InkWell(
-      onTap: press,
-      child: Container(
-        height: height,
-        width: width,
-        decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(50),
-            gradient: const LinearGradient(
-                colors: [Color(0xFFd0f0e0), Color(0xFFe7dbce)])),
-        child: Center(
-            child: Text(
-          text,
-          style: GoogleFonts.merriweather(
-              color: color, fontWeight: FontWeight.bold),
-        )),
-      ),
-    ),
-  );
 }
