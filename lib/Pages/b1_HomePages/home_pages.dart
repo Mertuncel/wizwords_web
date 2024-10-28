@@ -33,7 +33,7 @@ class HomePages extends StatelessWidget {
 
                     TopBar(currentWidth: currentWidth),
 
-                    //COMPONENTS
+                    //İNDEX
 
                     LetsAndimg(currentWidth: currentWidth),
                     ImageOne(currentWidth: currentWidth),
