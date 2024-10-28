@@ -55,3 +55,29 @@ class TextType2 extends StatelessWidget {
     );
   }
 }
+
+class TextType3 extends StatelessWidget {
+  const TextType3(
+      {super.key,
+      required this.text,
+      required this.color,
+      required this.size,
+      this.align});
+
+  final String text;
+  final Color color;
+  final double size;
+  final TextAlign? align;
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      textAlign: align,
+      text,
+      style: GoogleFonts.montserrat(
+        color: color,
+        fontSize: size,
+      ),
+    );
+  }
+}

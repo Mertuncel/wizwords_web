@@ -4,6 +4,7 @@ import '../PhoneHomePage/phone_home_page.dart';
 import '../components/colors.dart';
 import '../components/footBar.dart';
 import '../components/topBar.dart';
+import 'Parts/About.dart';
 
 class AboutPage extends StatelessWidget {
   const AboutPage({super.key});
@@ -26,6 +27,7 @@ class AboutPage extends StatelessWidget {
                     //TOP BAR
 
                     TopBar(currentWidth: currentWidth),
+                    About(currentWidth: currentWidth),
 
                     // FOOTBAR
                     FoodBar(currentWidth: currentWidth),
