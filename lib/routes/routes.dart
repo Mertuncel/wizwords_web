@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:wizwords_web/Pages/b1_HomePages/home_pages.dart';
 import 'package:wizwords_web/Pages/b2_About/About_page.dart';
+import 'package:wizwords_web/Pages/b3_Courses/Courses_page.dart';
 
 final GoRouter router = GoRouter(routes: <RouteBase>[
   GoRoute(
@@ -13,5 +14,10 @@ final GoRouter router = GoRouter(routes: <RouteBase>[
       path: '/About',
       builder: (BuildContext context, GoRouterState state) {
         return const AboutPage();
+      }),
+  GoRoute(
+      path: '/Courses',
+      builder: (BuildContext context, GoRouterState state) {
+        return const CoursesPage();
       }),
 ]);

@@ -4,7 +4,7 @@ import 'package:wizwords_web/Pages/components/textType.dart';
 
 import 'package:wizwords_web/Pages/components/texts.dart';
 
-import '../../components/highlight.dart';
+import 'highlight.dart';
 import '../../components/titleBox.dart';
 
 class About extends StatelessWidget {

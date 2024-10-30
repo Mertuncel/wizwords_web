@@ -1,7 +1,8 @@
 import 'package:flutter/widgets.dart';
+import 'package:wizwords_web/Pages/components/images.dart';
 
-import 'colors.dart';
-import 'textType.dart';
+import '../../components/colors.dart';
+import '../../components/textType.dart';
 
 class Highlights extends StatelessWidget {
   const Highlights({
@@ -29,7 +30,7 @@ class Highlights extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Image.asset(
-              "assets/images/About_img2.png",
+              lightBulb,
               height: currentWidth * 0.050,
             ),
             SizedBox(height: currentWidth * 0.010),

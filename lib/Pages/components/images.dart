@@ -11,3 +11,18 @@ const String anasayfaImg4 = 'assets/images/anasayfaImg4.png';
 const String instaIcon = 'assets/images/insta.png';
 const String tiktokIcon = 'assets/images/tiktok.png';
 const String mailIcon = 'assets/images/mail.png';
+
+//HIGHLIGHTS IMAGES
+
+const String lightBulb = "assets/images/About_img2.png";
+
+// MISSION IMAGES
+
+const String missionImg = "assets/images/About_img.png";
+
+//COURSES IMAGES
+
+const String courseImg1 = "assets/images/courseImg_1.png";
+const String courseImg2 = "assets/images/courseImg_2.png";
+const String courseImg3 = "assets/images/courseImg_3.png";
+const String courseImg4 = "assets/images/courseImg_4.png";

@@ -4,11 +4,11 @@ import '../PhoneHomePage/phone_home_page.dart';
 import '../components/colors.dart';
 import '../components/footBar.dart';
 import '../components/topBar.dart';
-import 'Parts/About.dart';
-import 'Parts/Mission.dart';
+import 'Parts/courses.dart';
+import 'Parts/coursesText.dart';
 
-class AboutPage extends StatelessWidget {
-  const AboutPage({super.key});
+class CoursesPage extends StatelessWidget {
+  const CoursesPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -31,8 +31,8 @@ class AboutPage extends StatelessWidget {
 
                     //İNDEX
 
-                    About(currentWidth: currentWidth),
-                    Mission(currentWidth: currentWidth),
+                    CoursesText(currentWidth: currentWidth),
+                    Courses(currentWidth: currentWidth),
 
                     // FOOTBAR
                     FoodBar(currentWidth: currentWidth),

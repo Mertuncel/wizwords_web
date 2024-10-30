@@ -60,7 +60,7 @@ class TopBar extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
                   child: InkWell(
-                      onTap: () {},
+                      onTap: () => context.go('/Courses'),
                       child: TextType1(
                           text: 'Kurslar',
                           color: brown,
