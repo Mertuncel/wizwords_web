@@ -13,3 +13,7 @@ final List<Color> gradient2 = [
   const Color(0xFFd0f0e0),
   const Color(0xFFe7dbce)
 ];
+final List<Color> gradient3 = [
+  const Color(0xFF65a662),
+  const Color(0xFF9fc99d)
+];

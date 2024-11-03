@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wizwords_web/Pages/components/colors.dart';
+import 'package:wizwords_web/Pages/components/texts.dart';
 
 import 'textType.dart';
 
@@ -102,6 +103,46 @@ class GradientButton extends StatelessWidget {
             color: color,
             size: size,
           ),
+        ),
+      ),
+    );
+  }
+}
+
+class GreenButton extends StatelessWidget {
+  const GreenButton({
+    super.key,
+    required this.currentWidth,
+    required this.press,
+  });
+
+  final double currentWidth;
+  final Function() press;
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: press,
+      child: Container(
+        height: currentWidth * 0.029,
+        width: currentWidth * 0.2 / 1.5,
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(25),
+            gradient: LinearGradient(colors: gradient3)),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Padding(
+              padding: EdgeInsets.only(top: currentWidth * 0.002),
+              child: TextType1(
+                  text: buttonText7, color: white, size: currentWidth * 0.012),
+            ),
+            Icon(
+              Icons.arrow_forward_ios_rounded,
+              size: currentWidth * 0.014,
+              color: white,
+            )
+          ],
         ),
       ),
     );

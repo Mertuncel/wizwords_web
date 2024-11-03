@@ -26,3 +26,5 @@ const String courseImg1 = "assets/images/courseImg_1.png";
 const String courseImg2 = "assets/images/courseImg_2.png";
 const String courseImg3 = "assets/images/courseImg_3.png";
 const String courseImg4 = "assets/images/courseImg_4.png";
+const String courseImgSun = "assets/images/courseImg_sun.png";
+const String courseImgKite = "assets/images/courseImg_kite.png";

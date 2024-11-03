@@ -34,6 +34,7 @@ const String buttonText3 = 'ONLİNE GRUP   DERSLERİ';
 const String buttonText4 = 'ÇOCUKLAR İÇİN İNGİLİZCE (ONLİNE)';
 const String buttonText5 = 'Daha Fazla Öğren';
 const String buttonText6 = 'Hemen Dene';
+const String buttonText7 = 'Daha Fazla';
 
 //TİTLE TEXTS
 const String titleText1 = 'Hakkımızda';
@@ -96,6 +97,7 @@ const String coursesText3 =
 const String coursesText4 = "Online Birebir Dersler";
 const String coursesText5 = "Online Grup Dersleri";
 const String coursesText6 = "Online Konuşma Kulübü";
-const String coursesText7 = "Çocuklar için İngilizce(Online)";
+const String coursesText7 = '''Çocuklar için İngilizce
+(Online)''';
 const String coursesSubText =
     "Do you need help with your English\nlanguage skills?";
