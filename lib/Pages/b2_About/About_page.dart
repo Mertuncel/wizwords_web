@@ -35,7 +35,7 @@ class AboutPage extends StatelessWidget {
                     Mission(currentWidth: currentWidth),
 
                     // FOOTBAR
-                    FoodBar(currentWidth: currentWidth),
+                    FootBar(currentWidth: currentWidth),
                   ],
                 ),
               ),

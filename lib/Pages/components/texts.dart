@@ -101,3 +101,27 @@ const String coursesText7 = '''Çocuklar için İngilizce
 (Online)''';
 const String coursesSubText =
     "Do you need help with your English\nlanguage skills?";
+
+const String courseDetails = "Detaylar";
+
+//COURSES PAGES TEXTS
+
+const String course1 = "Birebir Online Özel Ders";
+const String course1Sub =
+    '''Risus pellentesque mauris suscipit, quisque habitant
+tempus, ut tristique facilisis libero morbi quam integer.
+Volutpat eleifend magna elementum, nunc eros ut, fames
+felis habitasse congue leo inceptos. Commodo sodales
+arcu enim, habitant accumsan etiam elementum porttitor.
+Inceptos lectus lacinia eros, viverra senectus malesua.''';
+const String courseDetailText1 =
+    "sodales arcu enim, habitant accumsan etiam elementum porttitor.\nInceptos lectus lacinia eros, viverra senectus malesua.";
+
+//POİNTER DETAİLS TEXTS
+
+const String pointerText1 = 'Esnek Saatler';
+const String pointerText2 = '40 Dakikalık Dersler';
+const String pointerText3 = 'Uzman Eğitmenler';
+const String pointerText4 = 'Kişiye özel ders programı';
+const String pointerText5 = 'Ücretsiz Kaynaklar';
+const String pointerText6 = 'Bireysel çalışma ajandası hediye!';

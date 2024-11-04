@@ -1,4 +1,5 @@
 import 'package:flutter/widgets.dart';
+import 'package:go_router/go_router.dart';
 import 'package:wizwords_web/Pages/components/images.dart';
 import 'package:wizwords_web/Pages/components/texts.dart';
 
@@ -34,7 +35,7 @@ class Courses extends StatelessWidget {
                     subText: coursesSubText,
                     image: courseImg1,
                     currentWidth: currentWidth,
-                    press: () {},
+                    press: () => context.go('/OneToOne'),
                   ),
                   CoursesButton(
                     text: coursesText5,

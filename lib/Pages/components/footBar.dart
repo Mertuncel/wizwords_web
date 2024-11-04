@@ -3,8 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:wizwords_web/Pages/components/images.dart';
 import 'package:wizwords_web/Pages/components/texts.dart';
 
-class FoodBar extends StatelessWidget {
-  const FoodBar({
+class FootBar extends StatelessWidget {
+  const FootBar({
     super.key,
     required this.currentWidth,
   });

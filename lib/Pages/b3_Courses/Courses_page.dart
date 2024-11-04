@@ -35,7 +35,7 @@ class CoursesPage extends StatelessWidget {
                     Courses(currentWidth: currentWidth),
 
                     // FOOTBAR
-                    FoodBar(currentWidth: currentWidth),
+                    FootBar(currentWidth: currentWidth),
                   ],
                 ),
               ),

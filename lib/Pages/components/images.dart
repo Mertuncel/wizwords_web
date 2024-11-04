@@ -28,3 +28,6 @@ const String courseImg3 = "assets/images/courseImg_3.png";
 const String courseImg4 = "assets/images/courseImg_4.png";
 const String courseImgSun = "assets/images/courseImg_sun.png";
 const String courseImgKite = "assets/images/courseImg_kite.png";
+const String cImage1_1 = "assets/images/c_img1.1.png";
+const String cImage1_2 = "assets/images/c_img1.2.png";
+const String pointerImg = "assets/images/pointerImg.png";

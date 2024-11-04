@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:wizwords_web/Pages/components/colors.dart';
 import 'package:wizwords_web/Pages/components/textType.dart';
 import 'package:wizwords_web/Pages/components/texts.dart';
@@ -26,7 +27,9 @@ class OnlineIng extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               YellowButton(
-                  press: () {}, currentWidth: currentWidth, text: buttonText1),
+                  press: () => context.go('/OneToOne'),
+                  currentWidth: currentWidth,
+                  text: buttonText1),
               SizedBox(width: currentWidth * 0.03),
               YellowButton(
                   press: () {}, currentWidth: currentWidth, text: buttonText2),
