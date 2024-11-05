@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:wizwords_web/Pages/b1_HomePages/home_pages.dart';
 import 'package:wizwords_web/Pages/b2_About/About_page.dart';
 import 'package:wizwords_web/Pages/b3.1_coursesPages/course_1_page/OneToOne_page.dart';
+import 'package:wizwords_web/Pages/b3.1_coursesPages/course_2_page/Group_lessons_page.dart';
 import 'package:wizwords_web/Pages/b3_Courses/Courses_page.dart';
 
 final GoRouter router = GoRouter(routes: <RouteBase>[
@@ -25,5 +26,10 @@ final GoRouter router = GoRouter(routes: <RouteBase>[
       path: '/OneToOne',
       builder: (BuildContext context, GoRouterState state) {
         return const OnetoOnePage();
+      }),
+  GoRoute(
+      path: '/Group',
+      builder: (BuildContext context, GoRouterState state) {
+        return const GroupPage();
       }),
 ]);

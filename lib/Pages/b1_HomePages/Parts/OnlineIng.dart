@@ -39,7 +39,9 @@ class OnlineIng extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               YellowButton(
-                  press: () {}, currentWidth: currentWidth, text: buttonText3),
+                  press: () => context.go('/Group'),
+                  currentWidth: currentWidth,
+                  text: buttonText3),
               SizedBox(width: currentWidth * 0.03),
               YellowButton(
                   press: () {}, currentWidth: currentWidth, text: buttonText4),

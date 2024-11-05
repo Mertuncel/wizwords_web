@@ -30,4 +30,12 @@ const String courseImgSun = "assets/images/courseImg_sun.png";
 const String courseImgKite = "assets/images/courseImg_kite.png";
 const String cImage1_1 = "assets/images/c_img1.1.png";
 const String cImage1_2 = "assets/images/c_img1.2.png";
+const String cImage2_1 = "assets/images/c_img2.1.png";
+const String cImage2_2 = "assets/images/c_img2.2.png";
 const String pointerImg = "assets/images/pointerImg.png";
+
+//PACKAGES IMAGES
+
+const String tlImg = "assets/images/TL.png";
+const String arrow = "assets/images/packArrow.png";
+const String ribbon = "assets/images/gold_ribbon.png";

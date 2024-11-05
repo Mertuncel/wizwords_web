@@ -18,7 +18,7 @@ class CoursesText extends StatelessWidget {
       child: Column(
         children: [
           TextType1(
-              text: coursesText1, color: green, size: currentWidth * 0.070),
+              text: coursesText1, color: green, size: currentWidth * 0.065),
           TextType1(
               text: coursesText2, color: green, size: currentWidth * 0.013),
           TextType1(

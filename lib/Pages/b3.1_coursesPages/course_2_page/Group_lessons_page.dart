@@ -1,15 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:wizwords_web/Pages/b3.1_coursesPages/course_1_page/parts/Birebir.dart';
 
 import '../../PhoneHomePage/phone_home_page.dart';
 import '../../components/colors.dart';
 import '../../components/footBar.dart';
 import '../../components/topBar.dart';
-import 'parts/Details.dart';
-import 'parts/Packages.dart';
+import 'parts/Group.dart';
 
-class OnetoOnePage extends StatelessWidget {
-  const OnetoOnePage({super.key});
+class GroupPage extends StatelessWidget {
+  const GroupPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -31,11 +29,7 @@ class OnetoOnePage extends StatelessWidget {
                     TopBar(currentWidth: currentWidth),
 
                     //İNDEX
-
-                    Birebir(currentWidth: currentWidth),
-                    Details(currentWidth: currentWidth),
-                    Packages(currentWidth: currentWidth),
-
+                    GroupTitle(currentWidth: currentWidth),
                     // FOOTBAR
                     FootBar(currentWidth: currentWidth),
                   ],

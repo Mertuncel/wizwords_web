@@ -12,7 +12,7 @@ class Information extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(top: currentWidth * 0.040),
+      padding: EdgeInsets.only(top: currentWidth * 0.050),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

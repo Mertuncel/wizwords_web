@@ -17,9 +17,9 @@ class CourseTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(top: currentWith * 0.047),
+      padding: EdgeInsets.only(top: currentWith * 0.065),
       child: Container(
-        height: currentWith * 0.30,
+        height: currentWith * 0.25,
         width: double.infinity,
         decoration: BoxDecoration(
             gradient: LinearGradient(
@@ -30,29 +30,31 @@ class CourseTitle extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Padding(
-              padding: EdgeInsets.only(top: currentWith * 0.005),
+              padding: EdgeInsets.only(
+                  top: currentWith * 0.005, left: currentWith * 0.035),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   TextType1(
                     text: text,
                     color: brown,
-                    size: currentWith * 0.038,
+                    size: currentWith * 0.028,
                     align: TextAlign.left,
                   ),
-                  Padding(
-                    padding: EdgeInsets.only(left: currentWith * 0.040),
-                    child: TextType3(
-                      text: subtext,
-                      color: green,
-                      size: currentWith * 0.017,
-                      align: TextAlign.left,
-                    ),
+                  TextType3(
+                    text: subtext,
+                    color: green,
+                    size: currentWith * 0.015,
+                    align: TextAlign.left,
                   ),
                 ],
               ),
             ),
-            Image.asset(image)
+            Padding(
+              padding: EdgeInsets.only(bottom: currentWith * 0.030),
+              child: Image.asset(image),
+            )
           ],
         ),
       ),

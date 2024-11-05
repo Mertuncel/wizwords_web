@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 
 const Color brown = Color(0xFF480c21);
 const Color green = Color(0xFF676127);
+const Color lightGreen = Color(0xFFebede6);
 const Color yellow = Color(0xFFe79239);
+const Color cream = Color(0xFFf8f5f2);
 const Color white = Color(0xFFffffff);
 const Color black = Color.fromARGB(255, 7, 7, 7);
 const Color faqColor = Color(0xFFf8f7f4);

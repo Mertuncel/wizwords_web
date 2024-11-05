@@ -46,7 +46,7 @@ class TopBar extends StatelessWidget {
                       child: TextType1(
                           text: 'AnaSayfa',
                           color: brown,
-                          size: currentWidth * 0.010)),
+                          size: currentWidth * 0.013)),
                 ),
                 Padding(
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
@@ -55,7 +55,7 @@ class TopBar extends StatelessWidget {
                       child: TextType1(
                           text: 'Hakkımızda',
                           color: brown,
-                          size: currentWidth * 0.010)),
+                          size: currentWidth * 0.013)),
                 ),
                 Padding(
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
@@ -64,7 +64,7 @@ class TopBar extends StatelessWidget {
                       child: TextType1(
                           text: 'Kurslar',
                           color: brown,
-                          size: currentWidth * 0.010)),
+                          size: currentWidth * 0.013)),
                 ),
                 Padding(
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
@@ -73,7 +73,7 @@ class TopBar extends StatelessWidget {
                       child: TextType1(
                           text: 'Ürünler',
                           color: brown,
-                          size: currentWidth * 0.010)),
+                          size: currentWidth * 0.013)),
                 ),
                 Padding(
                   padding: EdgeInsets.only(right: currentWidth * 0.030),
@@ -82,7 +82,7 @@ class TopBar extends StatelessWidget {
                       child: TextType1(
                           text: 'Eğitmen Ol',
                           color: brown,
-                          size: currentWidth * 0.010)),
+                          size: currentWidth * 0.013)),
                 ),
                 Padding(
                   padding: EdgeInsets.only(right: currentWidth * 0.015),
@@ -92,7 +92,7 @@ class TopBar extends StatelessWidget {
                       color: brown,
                       height: currentWidth * 0.040,
                       width: currentWidth * 0.09,
-                      size: currentWidth * 0.010,
+                      size: currentWidth * 0.012,
                       press: () {}),
                 ),
               ],

@@ -42,7 +42,7 @@ class Courses extends StatelessWidget {
                     subText: coursesSubText,
                     image: courseImg2,
                     currentWidth: currentWidth,
-                    press: () {},
+                    press: () => context.go('/Group'),
                   ),
                   CoursesButton(
                     text: coursesText6,

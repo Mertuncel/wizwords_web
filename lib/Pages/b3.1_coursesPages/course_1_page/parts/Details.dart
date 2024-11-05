@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:wizwords_web/Pages/components/colors.dart';
 
-import 'package:wizwords_web/Pages/components/textType.dart';
-import 'package:wizwords_web/Pages/components/texts.dart';
-
-import '../../parts/Information.dart';
+import '../../../components/colors.dart';
+import '../../../components/images.dart';
+import '../../../components/textType.dart';
+import '../../../components/texts.dart';
+import '../../components/Information.dart';
 
 class Details extends StatelessWidget {
   const Details({
@@ -13,6 +13,7 @@ class Details extends StatelessWidget {
   });
 
   final double currentWidth;
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -28,8 +29,11 @@ class Details extends StatelessWidget {
             align: TextAlign.center,
           ),
           Row(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Information(currentWidth: currentWidth),
+              Image.asset(cImage1_2, height: currentWidth * 0.1 / 0.75),
             ],
           )
         ],

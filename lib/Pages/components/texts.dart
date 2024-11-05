@@ -106,6 +106,8 @@ const String courseDetails = "Detaylar";
 
 //COURSES PAGES TEXTS
 
+// BİREBİR DERSLER
+
 const String course1 = "Birebir Online Özel Ders";
 const String course1Sub =
     '''Risus pellentesque mauris suscipit, quisque habitant
@@ -117,6 +119,12 @@ Inceptos lectus lacinia eros, viverra senectus malesua.''';
 const String courseDetailText1 =
     "sodales arcu enim, habitant accumsan etiam elementum porttitor.\nInceptos lectus lacinia eros, viverra senectus malesua.";
 
+//GRUP DERSLERİ
+
+const String course2 = "Online Grup Dersleri";
+const String course3 = "Online Konuşma Kulüpleri";
+const String course4 = "Çocuklar için Online İngilizce";
+
 //POİNTER DETAİLS TEXTS
 
 const String pointerText1 = 'Esnek Saatler';
@@ -125,3 +133,27 @@ const String pointerText3 = 'Uzman Eğitmenler';
 const String pointerText4 = 'Kişiye özel ders programı';
 const String pointerText5 = 'Ücretsiz Kaynaklar';
 const String pointerText6 = 'Bireysel çalışma ajandası hediye!';
+
+//PACKAGES BİREBİR TEXTS
+
+const String teksefer = '/Tek Seferlik';
+const String timetext = 'Ders süresi 40 dakika';
+const String buyText = 'Kayıt Ol';
+
+const String bronzeText1 = 'BRONZE';
+const String bronzeText2 = '4.250';
+const String bronzeText3 = '10 Ders';
+const String bronzeText4 = 'Ortalama Bitirme Süresi 1-2 Ay';
+const String bronzeText5 = 'Bir ders ücreti: 425 TL';
+
+const String silverText1 = 'SİLVER';
+const String silverText2 = '6.384';
+const String silverText3 = '16 Ders';
+const String silverText4 = 'Ortalama Bitirme Süresi 2-3 Ay';
+const String silverText5 = 'Bir ders ücreti: 399 TL';
+
+const String goldText1 = 'GOLD';
+const String goldText2 = '10.500';
+const String goldText3 = '30 Ders';
+const String goldText4 = 'Ortalama Bitirme Süresi 3-5 Ay';
+const String goldText5 = 'Bir ders ücreti: 350 TL';

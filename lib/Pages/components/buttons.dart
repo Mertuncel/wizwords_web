@@ -148,3 +148,32 @@ class GreenButton extends StatelessWidget {
     );
   }
 }
+
+class PackButton extends StatelessWidget {
+  const PackButton({
+    super.key,
+    required this.currentWidth,
+    required this.press,
+  });
+
+  final double currentWidth;
+  final Function() press;
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: press,
+      child: Container(
+          height: currentWidth * 0.030,
+          width: currentWidth * 0.1,
+          decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              color: lightGreen,
+              border: Border.all(color: green)),
+          child: Center(
+            child: TextType1(
+                text: buyText, color: green, size: currentWidth * 0.010),
+          )),
+    );
+  }
+}
