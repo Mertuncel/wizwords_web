@@ -8,11 +8,10 @@ class CourseTitle extends StatelessWidget {
     required this.currentWith,
     required this.text,
     required this.subtext,
-    required this.image,
   });
 
   final double currentWith;
-  final String text, subtext, image;
+  final String text, subtext;
 
   @override
   Widget build(BuildContext context) {
@@ -51,10 +50,6 @@ class CourseTitle extends StatelessWidget {
                 ],
               ),
             ),
-            Padding(
-              padding: EdgeInsets.only(bottom: currentWith * 0.030),
-              child: Image.asset(image),
-            )
           ],
         ),
       ),

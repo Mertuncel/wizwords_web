@@ -16,9 +16,10 @@ class Pack extends StatelessWidget {
     required this.coursePrice,
     required this.month,
     this.flag,
+    required this.timeText,
   });
   final double currentWidth;
-  final String title, price, lesNum, month, coursePrice;
+  final String title, price, lesNum, month, coursePrice, timeText;
   final Image? flag;
   @override
   Widget build(BuildContext context) {
@@ -40,8 +41,13 @@ class Pack extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    TextType1(
-                        text: price, color: black, size: currentWidth * 0.020),
+                    Padding(
+                      padding: EdgeInsets.only(left: currentWidth * 0.010),
+                      child: TextType1(
+                          text: price,
+                          color: black,
+                          size: currentWidth * 0.020),
+                    ),
                     Padding(
                       padding: EdgeInsets.only(bottom: currentWidth * 0.020),
                       child: Image.asset(
@@ -56,7 +62,7 @@ class Pack extends StatelessWidget {
                 const Divider(color: green),
                 PackInfo(text: lesNum, currentWidth: currentWidth),
                 PackInfo(text: month, currentWidth: currentWidth),
-                PackInfo(text: timetext, currentWidth: currentWidth),
+                PackInfo(text: timeText, currentWidth: currentWidth),
                 PackInfo(text: coursePrice, currentWidth: currentWidth),
                 Padding(
                   padding: EdgeInsets.only(top: currentWidth * 0.050),

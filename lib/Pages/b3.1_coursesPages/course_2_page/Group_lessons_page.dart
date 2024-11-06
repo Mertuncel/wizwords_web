@@ -5,6 +5,8 @@ import '../../components/colors.dart';
 import '../../components/footBar.dart';
 import '../../components/topBar.dart';
 import 'parts/Group.dart';
+import 'parts/TwoDetails.dart';
+import 'parts/TwoPackages.dart';
 
 class GroupPage extends StatelessWidget {
   const GroupPage({super.key});
@@ -30,6 +32,8 @@ class GroupPage extends StatelessWidget {
 
                     //İNDEX
                     GroupTitle(currentWidth: currentWidth),
+                    TwoDetails(currentWidth: currentWidth),
+                    TwoPackages(currentWidth: currentWidth),
                     // FOOTBAR
                     FootBar(currentWidth: currentWidth),
                   ],

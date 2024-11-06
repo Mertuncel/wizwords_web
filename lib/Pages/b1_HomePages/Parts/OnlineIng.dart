@@ -32,7 +32,9 @@ class OnlineIng extends StatelessWidget {
                   text: buttonText1),
               SizedBox(width: currentWidth * 0.03),
               YellowButton(
-                  press: () {}, currentWidth: currentWidth, text: buttonText2),
+                  press: () => context.go('/SpeakingClub'),
+                  currentWidth: currentWidth,
+                  text: buttonText2),
             ],
           ),
           Row(
@@ -44,7 +46,9 @@ class OnlineIng extends StatelessWidget {
                   text: buttonText3),
               SizedBox(width: currentWidth * 0.03),
               YellowButton(
-                  press: () {}, currentWidth: currentWidth, text: buttonText4),
+                  press: () => context.go('/Kids'),
+                  currentWidth: currentWidth,
+                  text: buttonText4),
             ],
           ),
         ],

@@ -32,6 +32,11 @@ const String cImage1_1 = "assets/images/c_img1.1.png";
 const String cImage1_2 = "assets/images/c_img1.2.png";
 const String cImage2_1 = "assets/images/c_img2.1.png";
 const String cImage2_2 = "assets/images/c_img2.2.png";
+const String cImage3_1 = "assets/images/c_img3.1.png";
+const String cImage3_2 = "assets/images/c_img3.2.png";
+const String cImage4_1 = "assets/images/c_img4.1.png";
+const String cImage4_2 = "assets/images/c_img4.2.png";
+
 const String pointerImg = "assets/images/pointerImg.png";
 
 //PACKAGES IMAGES

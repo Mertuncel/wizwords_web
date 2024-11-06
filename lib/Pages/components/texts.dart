@@ -123,37 +123,104 @@ const String courseDetailText1 =
 
 const String course2 = "Online Grup Dersleri";
 const String course3 = "Online Konuşma Kulüpleri";
+
+//ÇOCUKLAR İÇİN ONLİNE DERSLER
+
 const String course4 = "Çocuklar için Online İngilizce";
 
 //POİNTER DETAİLS TEXTS
 
+// BİREBİR POİNTER
 const String pointerText1 = 'Esnek Saatler';
 const String pointerText2 = '40 Dakikalık Dersler';
 const String pointerText3 = 'Uzman Eğitmenler';
 const String pointerText4 = 'Kişiye özel ders programı';
 const String pointerText5 = 'Ücretsiz Kaynaklar';
-const String pointerText6 = 'Bireysel çalışma ajandası hediye!';
+const String pointerText6 =
+    'Bireysel çalışma ajandası ve kelime defteri hediye!';
+
+//ONLİNE GRUP VE SPEAKİNG CLUP POİNTER
+const String pointerText7 = '60 Dakikalık Dersler';
+const String pointerText8 = 'En fazla 6 kişilik sınıflar';
+const String pointerText9 = 'Bireysel çalışma ajandası hediye!';
+
+//ÇOCUKLAR İÇİN ONLİNE POİNTER
+const String pointerText10 = 'Kişiye özel ders programı';
+const String pointerText11 = 'Kelime defteri hediye!';
 
 //PACKAGES BİREBİR TEXTS
 
 const String teksefer = '/Tek Seferlik';
-const String timetext = 'Ders süresi 40 dakika';
+const String timetext1 = 'Ders süresi 40 dakika';
 const String buyText = 'Kayıt Ol';
 
-const String bronzeText1 = 'BRONZE';
-const String bronzeText2 = '4.250';
-const String bronzeText3 = '10 Ders';
-const String bronzeText4 = 'Ortalama Bitirme Süresi 1-2 Ay';
-const String bronzeText5 = 'Bir ders ücreti: 425 TL';
+const String bronzeText = 'BRONZE';
+const String bronzePrice1 = '4.250';
+const String bronzeLesson1 = '10 Ders';
+const String bronzeMonth1 = 'Ortalama Bitirme Süresi 1-2 Ay';
+const String bronzeDayPrice1 = 'Bir ders ücreti: 425 TL';
 
-const String silverText1 = 'SİLVER';
-const String silverText2 = '6.384';
-const String silverText3 = '16 Ders';
-const String silverText4 = 'Ortalama Bitirme Süresi 2-3 Ay';
-const String silverText5 = 'Bir ders ücreti: 399 TL';
+const String silverText = 'SİLVER';
+const String silverPrice1 = '6.384';
+const String silverLesson1 = '16 Ders';
+const String silverMonth1 = 'Ortalama Bitirme Süresi 2-3 Ay';
+const String silverDayPrice1 = 'Bir ders ücreti: 399 TL';
 
-const String goldText1 = 'GOLD';
-const String goldText2 = '10.500';
-const String goldText3 = '30 Ders';
-const String goldText4 = 'Ortalama Bitirme Süresi 3-5 Ay';
-const String goldText5 = 'Bir ders ücreti: 350 TL';
+const String goldText = 'GOLD';
+const String goldPrice1 = '10.500';
+const String goldLesson1 = '30 Ders';
+const String goldMonth1 = 'Ortalama Bitirme Süresi 3-5 Ay';
+const String goldDayPrice1 = 'Bir ders ücreti: 350 TL';
+
+//PACKAGES ONLİNE GROUP TEXTS
+
+const String timetext2 = 'Ders süresi 60 dakika';
+
+const String bronzePrice2 = '2.000';
+const String bronzeLesson2 = '8 Ders';
+const String bronzeMonth2 = 'Ortalama Bitirme Süresi 1-2 Ay';
+const String bronzeDayPrice2 = 'Bir ders ücreti: 250 TL';
+
+const String silverPrice2 = '3.200';
+const String silverLesson2 = '16 Ders';
+const String silverMonth2 = 'Ortalama Bitirme Süresi 2-3 Ay';
+const String silverDayPrice2 = 'Bir ders ücreti: 200 TL';
+
+const String goldPrice2 = '5.400';
+const String goldLesson2 = '30 Ders';
+const String goldMonth2 = 'Ortalama Bitirme Süresi 3-5 Ay';
+const String goldDayPrice2 = 'Bir ders ücreti: 180 TL';
+
+//PACKAGES SPEAKİNG CLUB TEXTS
+
+const String bronzePrice3 = '1.600';
+const String bronzeLesson3 = '8 Ders';
+const String bronzeMonth3 = 'Ortalama Bitirme Süresi 1-2 Ay';
+const String bronzeDayPrice3 = 'Bir ders ücreti: 200 TL';
+
+const String silverPrice3 = '2.880';
+const String silverLesson3 = '16 Ders';
+const String silverMonth3 = 'Ortalama Bitirme Süresi 2-3 Ay';
+const String silverDayPrice3 = 'Bir ders ücreti: 180 TL';
+
+const String goldPrice3 = '4.950';
+const String goldLesson3 = '30 Ders';
+const String goldMonth3 = 'Ortalama Bitirme Süresi 3-5 Ay';
+const String goldDayPrice3 = 'Bir ders ücreti: 165 TL';
+
+//ÇOCUKLAR İÇİN ONLİNE TEXTS
+
+const String bronzePrice4 = '2.000';
+const String bronzeLesson4 = '10 Ders';
+const String bronzeMonth4 = 'Ortalama Bitirme Süresi 1-2 Ay';
+const String bronzeDayPrice4 = 'Bir ders ücreti: 425 TL';
+
+const String silverPrice4 = '6.384';
+const String silverLesson4 = '16 Ders';
+const String silverMonth4 = 'Ortalama Bitirme Süresi 2-3 Ay';
+const String silverDayPrice4 = 'Bir ders ücreti: 399 TL';
+
+const String goldPrice4 = '10.500';
+const String goldLesson4 = '30 Ders';
+const String goldMonth4 = 'Ortalama Bitirme Süresi 3-5 Ay';
+const String goldDayPrice4 = 'Bir ders ücreti: 350 TL';

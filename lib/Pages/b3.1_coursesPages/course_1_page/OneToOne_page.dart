@@ -5,8 +5,8 @@ import '../../PhoneHomePage/phone_home_page.dart';
 import '../../components/colors.dart';
 import '../../components/footBar.dart';
 import '../../components/topBar.dart';
-import 'parts/Details.dart';
-import 'parts/Packages.dart';
+import 'parts/OneDetails.dart';
+import 'parts/OnePackages.dart';
 
 class OnetoOnePage extends StatelessWidget {
   const OnetoOnePage({super.key});
@@ -33,8 +33,8 @@ class OnetoOnePage extends StatelessWidget {
                     //İNDEX
 
                     Birebir(currentWidth: currentWidth),
-                    Details(currentWidth: currentWidth),
-                    Packages(currentWidth: currentWidth),
+                    OneDetails(currentWidth: currentWidth),
+                    OnePackages(currentWidth: currentWidth),
 
                     // FOOTBAR
                     FootBar(currentWidth: currentWidth),
